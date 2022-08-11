@@ -1,0 +1,38 @@
+body {
+    background-color: black;
+    color: white;
+}
+#content {
+    margin: 1%;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(250, 0, 0);
+}
+h1 {
+    color: white;
+    text-align: center;
+}
+span {
+    color: aqua;
+}
+#quienes-somos {
+    width: 40%;
+    border-width: 1px;
+    border-color: red;
+    border-style: solid;
+    margin: 1%;
+}
+#integrantes {
+    width: 50%;
+    border-width: 1px;
+    border-color: red;
+    border-style: solid;
+    margin: 1%;
+}
+.integrantes {
+    font-size: 17px;
+}
+#quienes-somos, #integrantes {
+    display: inline-block;
+    vertical-align: top;
+}
